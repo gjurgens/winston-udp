@@ -1,0 +1,32 @@
+{
+  "name": "winston-udp",
+  "description": "A UDP transport for winston",
+  "version": "0.0.1",
+  "author": "Gabriel Jürgens <gabriel@jurgens.com.ar>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gjurgens/winston-udp.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "udp"
+  ],
+  "devDependencies": {
+    "winston": "",
+    "vows": ""
+  },
+  "peerDependencies": {
+    "winston": ">=0.5.0 <2.0.0"
+  },
+  "main": "./lib/winston-udp",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "MIT"
+}
