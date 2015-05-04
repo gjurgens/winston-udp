@@ -24,4 +24,6 @@ vows.describe('winston-udp').addBatch({
      assert.isTrue(logged);
    })
  }
+}).addBatch({
+    "Tear down": { 'UDP Client': function () {transport.closeClient()}}
 }).export(module);
