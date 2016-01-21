@@ -1,3 +1,12 @@
+0.0.5 / 2010-01-21
+==================
+
+  * Add formatter function parameter.
+
+0.0.4 / 2016-01-19
+==================
+
+  * Make winston-udp compatible with winston < 2.2.0
 
 0.0.3 / 2015-10-15
 ==================
