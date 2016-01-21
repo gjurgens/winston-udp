@@ -35,6 +35,7 @@ The UDP transport uses node's native [dgram](https://nodejs.org/api/dgram.html) 
 * __server:__ The address you want to send datagrams to. (default: `127.0.0.1`)
 * __port:__ The port number you want to send datagrams to. (default: `9999`)
 * __level:__ The minimum logging level that this transport will handle. (default: `info`)
+* __formatter:__ The message formatter function. For more details, see [winston's repository](https://github.com/winstonjs/winston#custom-log-format).
 
 ## License
 The MIT License (MIT)
