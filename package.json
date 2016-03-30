@@ -15,6 +15,7 @@
     "udp"
   ],
   "dependencies":{
+    "debug": "2.2.0",
     "winston": ">=0.5.0 <=2.2.0"
   },
   "devDependencies": {
