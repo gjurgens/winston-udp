@@ -14,12 +14,11 @@
     "winston",
     "udp"
   ],
-  "devDependencies": {
-    "winston": "",
-    "vows": ""
-  },
-  "peerDependencies": {
+  "dependencies":{
     "winston": ">=0.5.0 <=2.2.0"
+  },
+  "devDependencies": {
+    "vows": ""
   },
   "main": "./lib/winston-udp",
   "scripts": {
