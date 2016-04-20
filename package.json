@@ -1,8 +1,14 @@
 {
   "name": "winston-udp",
   "description": "A UDP transport for winston",
-  "version": "0.0.6",
+  "version": "0.0.5",
   "author": "Gabriel Jürgens <gabriel@jurgens.com.ar>",
+  "contributors":[
+    {
+      "name":"Facundo Chambó",
+      "url":"https://github.com/neuquino"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/gjurgens/winston-udp.git"
