@@ -3,6 +3,12 @@
   "description": "A UDP transport for winston",
   "version": "0.0.5",
   "author": "Gabriel Jürgens <gabriel@jurgens.com.ar>",
+  "contributors":[
+    {
+      "name":"Facundo Chambó",
+      "url":"https://github.com/neuquino"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/gjurgens/winston-udp.git"
@@ -14,12 +20,12 @@
     "winston",
     "udp"
   ],
-  "devDependencies": {
-    "winston": "",
-    "vows": ""
+  "dependencies":{
+    "debug": "2.2.0",
+    "winston": ">=0.5.0 <=2.2.0"
   },
-  "peerDependencies": {
-    "winston": ">=0.5.0 <2.2.0"
+  "devDependencies": {
+    "vows": ""
   },
   "main": "./lib/winston-udp",
   "scripts": {
